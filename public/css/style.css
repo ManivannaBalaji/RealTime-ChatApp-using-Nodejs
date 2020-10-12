@@ -1,0 +1,27 @@
+html,body{
+	height: 100%;
+}
+#side-bar{
+	height: 100%;
+	background-color: #1e272e;
+	color: #fff;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.usernames{
+	padding-left: 1em; 
+	text-indent: -.7em;
+}
+  
+.usernames::before{
+	content: "• ";
+	font-weight: bold;
+	color: #1dd1a1; /* or whatever color you prefer */
+}
+.chat-messages{
+	overflow: auto;
+	height: 400px;
+}
